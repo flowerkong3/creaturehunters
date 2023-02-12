@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS -->
+	<link rel="stylesheet" href="./css/ui.css">
+	<link rel="stylesheet" href="./css/common.css">
+	<!-- JS -->
+	<script defer src="./js/ui.js"></script>
+	<title>Creature Hunter's</title>
+</head>
+
+<body>
+	<div class="wrap home">
+		<!-- Scroll Moving Header -->
+		<header class="header">
+			<div class="header__container">
+				<h1>
+					<a href="#">
+						<img src="./images/logo.png" alt="creature hunters">
+					</a>
+				</h1>
+				<nav class="gnb">
+					<ul>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="">GAME</a></li>
+						<li><a href="">NFT</a></li>
+						<li><a href="">PARTNERS</a></li>
+					</ul>
+				</nav>
+				<button class="hamburger" onclick="toggleHamburger()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="main">
+			<section class="sec home__keyvisual" id="keyvisual">
+				<div class="keyvisual__content">
+					<div class="keyvisual__logo">
+						<img src="./images/img_keyvisual_logo.png" alt="">
+					</div>
+					<div class="keyvisual__robot robot--left">
+						<img src="./images/img_keyvisual_robot_left.png" alt="">
+					</div>
+					<div class="keyvisual__robot robot--center">
+						<img src="./images/img_keyvisual_robot_center.png" alt="">
+					</div>
+					<div class="keyvisual__robot robot--right">
+						<img src="./images/img_keyvisual_robot_right.png" alt="">
+					</div>
+					<!-- <div class="keyvisual__bg"></div> -->
+				</div>
+			</section>
+			<section class="sec home__about" id="about">
+				<div class="container">
+					<h2 class="title blind">ABOUT</h2>
+					<div class="content">
+						<ul class="about__list">
+							<li class="about__list-item ">
+								<div class="img fade-in">
+									<img src="./images/img_about_01.png" alt="">
+								</div>
+								<div class="txt fade-in delay03">
+									<strong class="txt__title txt-type1">We are<br>
+										Creature Hunters</strong>
+									<p class="txt__subtit txt-type2 mt5">About Us</p>
+									<p class="txt__desc txt-type3 mt5">
+										Creature Hunters is a blockchain & AR powered<br>
+										gaming & entertainment company that strives to<br>
+										create innovative gaming platforms.
+									</p>
+								</div>
+							</li>
+							<li class="about__list-item fade-in">
+								<div class="img fade-in">
+									<img src="./images/img_about_02.png" alt="">
+								</div>
+								<div class="txt txt-right fade-in delay03">
+									<strong class="txt__title txt-type1">Creature Hunter's<br>
+										WEB3 network</strong>
+									<p class="txt__subtit txt-type2 mt5">Building a Community</p>
+									<p class="txt__desc txt-type3 mt5">
+										Creature Hunters have pubished its own IPs and game,<br>
+										inviting game enthusiasts and fans to build their own<br>
+										community withing Creature Hunter's WEB3 network.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>

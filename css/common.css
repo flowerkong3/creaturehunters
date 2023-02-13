@@ -6,26 +6,24 @@
 
 @font-face {
 	font-family: 'Hellix';
-	src: url('../../font/hellix/Hellix-Regular.woff')format('woff');
+	src: url('../../font/hellix/Hellix-Regular.woff')format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Hellix';
-	src: url('../../font/hellix/Hellix-Bold.woff')format('woff');
+	src: url('../../font/hellix/Hellix-Bold.woff')format("woff");
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Hellix';
-	src: url('../../font/hellix/Hellix-Black.woff')format('woff');
+	src: url('../../font/hellix/Hellix-Black.woff')format("woff");
 	font-weight: 900;
 	font-style: normal;
 }
 
-body {
-	font-family: 'Hellix';
-}
+
 
 
 
@@ -44,9 +42,12 @@ body {
 	--font-large:3.2rem;
 	--font-x-large:4.8rem;
 
-	
+	--font-hx : 'Hellix';
 }
 
+body {
+	font-family: var(--font-hx);
+}
 
 /* Margin */
 .mt10 {margin-top:10rem;}

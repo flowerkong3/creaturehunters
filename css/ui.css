@@ -145,7 +145,7 @@ h1 {width:30rem}
 		right: -5%;
 		width: calc(1021px - 120px);
 	}
-	.canvas {display:none;}
+	
 }
 
 @media screen and (max-width:1280px) {
@@ -157,6 +157,7 @@ h1 {width:30rem}
 		background: url('../images/bg_m.png')no-repeat top/cover;
 	}
 	.keyvisual__content {display:none;}
+	.canvas {display:none;}
 	/* .keyvisual__logo, .keyvisual__robot {display:none;} */
 	
 }

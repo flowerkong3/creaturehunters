@@ -6,29 +6,26 @@
 
 @font-face {
 	font-family: 'Hellix';
-	src: url('Hellix-Regular.eot');
-	src: /* local('Hellix Regular'), local('Hellix-Regular'), */
-			url('Hellix-Regular.eot?#iefix') format('embedded-opentype'),
-			url('Hellix-Regular.woff2') format('woff2'),
-			url('Hellix-Regular.woff') format('woff'),
-			url('Hellix-Regular.ttf') format('truetype');
+	src: url('../../font/hellix/Hellix-Regular.woff')format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
-
-
 @font-face {
 	font-family: 'Hellix';
-	src: url('Hellix-Bold.eot');
-	src: /* local('Hellix Bold'), local('Hellix-Bold'), */
-			url('Hellix-Bold.eot?#iefix') format('embedded-opentype'),
-			url('Hellix-Bold.woff2') format('woff2'),
-			url('Hellix-Bold.woff') format('woff'),
-			url('Hellix-Bold.ttf') format('truetype');
+	src: url('../../font/hellix/Hellix-Bold.woff')format("woff");
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Hellix';
+	src: url('../../font/hellix/Hellix-Black.woff')format("woff");
+	font-weight: 900;
+	font-style: normal;
+}
 
+body {
+	font-family: 'Hellix';
+}
 
 
 
@@ -69,10 +66,7 @@
 
 /* Reset CSS */
 * {box-sizing: border-box;}
-html {
-	font-family: 'Hellix','돋움',Arial, Helvetica, sans-serif; ;
-	scroll-behavior: smooth;
-}
+html {scroll-behavior: smooth;}
 body {
 	margin:0; padding:0;
 	/* font-family:'Montserrat', sans-serif, 'dotum','돋움',Arial, Helvetica, sans-serif; */

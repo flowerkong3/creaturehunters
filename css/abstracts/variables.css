@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+:root {
+	/* Color */
+	--black:#000;
+	--white:#fff;
+	--violet:#9601ff;
+	--pink:#d92ec7;
+	--gray:#7B7B7B;
+	
+	/* Font Size*/
+	--font-x-small:16px;
+	--font-small:1.8rem;
+	--font-medium:2.4rem;
+	--font-large:3.2rem;
+	--font-x-large:4.8rem;
+
+	/* Font Family*/
+	--font-hx : 'Hellix';
+}
+
+
+
+
+

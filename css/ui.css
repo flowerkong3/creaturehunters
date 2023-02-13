@@ -55,9 +55,10 @@ h1 {width:30rem}
 .keyvisual__logo {
 	z-index: 40;
 	bottom: 69px;
-	width: 1511px;
+	width: 1500px;
 	height: auto;
 	left: 65px;
+
 }
 /* Robot Animation */
 .keyvisual__robot {animation: robot 3s infinite; transition: all 0.3s;}
@@ -122,6 +123,31 @@ h1 {width:30rem}
 
 
 
+@media screen and (max-width:1600px) {
+	html {font-size: 8px;}
+	.keyvisual__logo {padding: 0 100px;}
+	.robot--left {
+		z-index: 10;
+		top: 163px;
+		left: 0;
+		width: calc(1016px - 120px);
+	}
+	.robot--center {
+		z-index: 30;
+		top: 21px;
+		left: 50%;
+		margin-left: -30%;
+		width: calc(1101px - 120px);
+	}
+	.robot--right {
+		z-index: 20;
+		top: 132px;
+		right: -5%;
+		width: calc(1021px - 120px);
+	}
+	.canvas {display:none;}
+}
+
 @media screen and (max-width:1280px) {
 	html {font-size: 7px;}
 	br {display:none;}
@@ -131,6 +157,7 @@ h1 {width:30rem}
 		background: url('../images/bg_m.png')no-repeat top/cover;
 	}
 	.keyvisual__content {display:none;}
+	/* .keyvisual__logo, .keyvisual__robot {display:none;} */
 	
 }
 

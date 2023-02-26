@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.slide-type1 {position:absolute; right: 0; top: 10%; width: 1500px;}
+/* .slide-type1 li {width:500px;} */
+.slide-type1 .img {width:100%}
+.slide-type1 .img img {width:100%;}

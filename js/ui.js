@@ -1,21 +1,6 @@
-// Header | scrollMovingHeader 
-const header = document.querySelector(".header");
-const delta1 = 30;
-let lastScrollTop = 0;
+// Gnb Color Change
 
-document.addEventListener("scroll", function(){
-	scrollMovingHeader();
-});
 
-function scrollMovingHeader(){
-	let scrollY = window.scrollY;
-	if(scrollY > lastScrollTop + delta1) {
-		header.classList.add("active");
-	}else if (scrollY < lastScrollTop){
-		header.classList.remove("active");
-	}
-	lastScrollTop = scrollY;
-}
 
 // Mobile Toggle Menu 
 const hamburger = document.querySelector(".hamburger")

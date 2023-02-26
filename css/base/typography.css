@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@font-face {
+/* @font-face {
 	font-family: 'Hellix';
 	src: url('../../font/hellix/Hellix-Regular.woff')format("woff");
 	font-weight: normal;
@@ -17,12 +17,43 @@
 	src: url('../../font/hellix/Hellix-Black.woff')format("woff");
 	font-weight: 900;
 	font-style: normal;
+} */
+@font-face {
+	font-family:'Oxanium';
+	src: url('../../font/Oxanium/Oxanium-Regular.ttf');
+	font-weight: 300;
+	font-style: normal;
 }
+@font-face {
+	font-family:'Oxanium';
+	src: url('../../font/Oxanium/Oxanium-SemiBold.ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Oxanium';
+	src: url('../../font/Oxanium/Oxanium-Bold.ttf');
+	font-weight: 800;
+	font-style: normal;
+}
+/* 기본포맷으로 바꾸기 */
+/* @font-face{
+	font-family:'Oxanium';
+	src:url('../../font/Oxanium-Regular.eot');
+	src:local('Oxanium'),
+			url('../../font/Oxanium-Regular.eot?#iefix') format(‘embedded-opentype’),
+			url('../../font/Oxanium-Regular.woff') format(‘woff’),
+			url('../../font/Oxanium-Regular.ttf') format('truetype');
+	font-weight:300;
+	font-style: normal;
+} */
 
 
 html {
 	font-size: 62.5%; /* 10px */
-	font-family: var(--font-hx);
+	/* font-family: var(--font-hx); */
+	font-family: "Oxanium", Arial, Helvetica, sans-serif;
+	font-weight: 300;
 }
 
 body {

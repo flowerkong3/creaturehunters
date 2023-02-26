@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.acc-type1 .acc-item .desc {overflow:hidden; max-height: 0; transition:all 0.5s}
+.acc-type1 .acc-item.show .desc {max-height: 1000px;}
+/* .acc-type1 .acc-item:hover {transform: translateY(-10px); transition: all 0.3s;} */

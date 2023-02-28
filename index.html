@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/ui.css">
 
-
 	<!-- JS -->
 	<script defer src="./js/ui.js"></script>
 	<script defer src="./js/components/header.js"></script>
@@ -37,7 +36,7 @@
 				<nav class="gnb nav-color-change">
 					<ul>
 						<li><a href="#keyvisual" class="color"><span class="blind">home</span></a></li>
-						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#about" class="color">ABOUT</a></li>
 						<li><a href="#game">GAME</a></li>
 						<li><a href="#nft">NFT</a></li>
 						<li><a href="#token">Token</a></li>
@@ -53,19 +52,19 @@
 			</div>
 		</header>
 		<main class="main">
-			<section class="section keyvisual" id="keyvisual">
+			<section class="section keyvisual " id="keyvisual">
 				<div class="keyvisual__content">
 					<div class="keyvisual__logo">
-						<img src="./images/img_keyvisual_logo.png" alt="">
+						<img src="./images/keyvisual_logo.png" alt="">
 					</div>
 					<div class="keyvisual__robot robot--left">
-						<img src="./images/img_keyvisual_robot_left.png" alt="">
+						<img src="./images/keyvisual_robot_left.png" alt="">
 					</div>
 					<div class="keyvisual__robot robot--center">
-						<img src="./images/img_keyvisual_robot_center.png" alt="">
+						<img src="./images/keyvisual_robot_center.png" alt="">
 					</div>
 					<div class="keyvisual__robot robot--right">
-						<img src="./images/img_keyvisual_robot_right.png" alt="">
+						<img src="./images/keyvisual_robot_right.png" alt="">
 					</div>
 					<!-- <div class="keyvisual__bg"></div> -->
 					<canvas id="canvas" class="canvas"></canvas>
@@ -76,11 +75,11 @@
 					<div class="container">
 						<h2 class="title blind">ABOUT</h2>
 						<div class="content-wrap">
-							<div class="content">
-								<div class="img fade-in">
-									<img src="./images/img_about_01.png" alt="">
+							<div class="content fade-in">
+								<div class="img">
+									<img src="./images/about_img_01.png" alt="">
 								</div>
-								<div class="txt fade-in delay03">
+								<div class="txt">
 									<strong class="title txt-type1">We are<br>
 										Creature Hunters</strong>
 									<p class="subtit txt-type2 mt5">About Us</p>
@@ -92,10 +91,10 @@
 								</div>
 							</div>
 							<div class="content fade-in">
-								<div class="img fade-in">
-									<img src="./images/img_about_02.png" alt="">
+								<div class="img">
+									<img src="./images/about_img_02.png" alt="">
 								</div>
-								<div class="txt txt-right fade-in delay03">
+								<div class="txt txt-right">
 									<strong class="title txt-type1">Creature Hunter's<br>
 										WEB3 network</strong>
 									<p class="subtit txt-type2 mt5">Building a Community</p>
@@ -109,7 +108,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="section-content movie">
+				<div class="section-content movie fade-in">
 					<div class="container--full">
 						<p class="blind">Experience the most innovative P2E
 							at your fingertips!</p>
@@ -118,7 +117,7 @@
 						</video>
 					</div>
 				</div>
-				<div class="section-content team">
+				<div class="section-content team fade-in">
 					<div class="container">
 						<div class="title-wrap">
 							<h2>
@@ -127,366 +126,707 @@
 							</h2>
 							<p>Key Member</p>
 						</div>
-						<div class="slide-type1 acc-type1">
-							<!-- swiper slide 구조 -->
-							<div class="swiper-container" id="my-swiper">
-								<ul class="swiper-wrapper">
-									<li class="swiper-slide acc-item">
-										<div class="img">
-											<img src="./images/about_team_01.png" alt="">
-										</div>
-										<div class="txt">
-											<p class="work">pd</p>
-											<p class="name">
-												Jang Yoo-sik 
-											</p>
-											<ul class="desc">
-												<li><b> ✧ 2021</b>
-													Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
-												</li>
-												<li>
-													<b>✧ 2019</b>
-													Paint director of "Wings of the Sorah" and "Nullpeta"
-												</li>
-												<li>
-													<b>✧ 2018</b>
-													Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
-												</li>
-												<li>
-													<b>✧ 2016</b>
-													Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
-													the Spring of the Spring of the Spring."
-												</li>
-												<li>
-													<b>✧ 2010</b>
-													Paint director of "Iljidangcheon Xtreme Xecutor"
-												</li>
-												<li>
-													<b>✧ 2009</b>
-													Paint director of "Like Hayate, 2nd Generation"
-												</li>
-												<li>
-													<b>✧ 2006</b>
-													"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
-												</li>
-												<li>
-													<b>✧ 2004</b>
-													"Hammer (Theater Feature)" Character Design, Part B Director
-													Director of Walt Disney's "Go-Gail" OVA.
-													Warner Bros. Director of Mask.
-													Nickelodeon's "Chalk Zone" Pilot director.
-													Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="swiper-slide acc-item">
-										<div class="img">
-											<img src="./images/about_team_02.png" alt="">
-										</div>
-										<div class="txt">
-											<p class="work">pd</p>
-											<p class="name">
-												Jang Yoo-sik 
-											</p>
-											<ul class="desc">
-												<li><b> ✧ 2021</b>
-													Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
-												</li>
-												<li>
-													<b>✧ 2019</b>
-													Paint director of "Wings of the Sorah" and "Nullpeta"
-												</li>
-												<li>
-													<b>✧ 2018</b>
-													Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
-												</li>
-												<li>
-													<b>✧ 2016</b>
-													Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
-													the Spring of the Spring of the Spring."
-												</li>
-												<li>
-													<b>✧ 2010</b>
-													Paint director of "Iljidangcheon Xtreme Xecutor"
-												</li>
-												<li>
-													<b>✧ 2009</b>
-													Paint director of "Like Hayate, 2nd Generation"
-												</li>
-												<li>
-													<b>✧ 2006</b>
-													"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
-												</li>
-												<li>
-													<b>✧ 2004</b>
-													"Hammer (Theater Feature)" Character Design, Part B Director
-													Director of Walt Disney's "Go-Gail" OVA.
-													Warner Bros. Director of Mask.
-													Nickelodeon's "Chalk Zone" Pilot director.
-													Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="swiper-slide acc-item">
-										<div class="img">
-											<img src="./images/about_team_03.png" alt="">
-										</div>
-										<div class="txt">
-											<p class="work">pd</p>
-											<p class="name">
-												Jang Yoo-sik 
-											</p>
-											<ul class="desc">
-												<li><b> ✧ 2021</b>
-													Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
-												</li>
-												<li>
-													<b>✧ 2019</b>
-													Paint director of "Wings of the Sorah" and "Nullpeta"
-												</li>
-												<li>
-													<b>✧ 2018</b>
-													Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
-												</li>
-												<li>
-													<b>✧ 2016</b>
-													Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
-													the Spring of the Spring of the Spring."
-												</li>
-												<li>
-													<b>✧ 2010</b>
-													Paint director of "Iljidangcheon Xtreme Xecutor"
-												</li>
-												<li>
-													<b>✧ 2009</b>
-													Paint director of "Like Hayate, 2nd Generation"
-												</li>
-												<li>
-													<b>✧ 2006</b>
-													"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
-												</li>
-												<li>
-													<b>✧ 2004</b>
-													"Hammer (Theater Feature)" Character Design, Part B Director
-													Director of Walt Disney's "Go-Gail" OVA.
-													Warner Bros. Director of Mask.
-													Nickelodeon's "Chalk Zone" Pilot director.
-													Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="swiper-slide acc-item">
-										<div class="img">
-											<img src="./images/about_team_04.png" alt="">
-										</div>
-										<div class="txt">
-											<p class="work">pd</p>
-											<p class="name">
-												Jang Yoo-sik 
-											</p>
-											<ul class="desc">
-												<li><b> ✧ 2021</b>
-													Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
-												</li>
-												<li>
-													<b>✧ 2019</b>
-													Paint director of "Wings of the Sorah" and "Nullpeta"
-												</li>
-												<li>
-													<b>✧ 2018</b>
-													Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
-												</li>
-												<li>
-													<b>✧ 2016</b>
-													Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
-													the Spring of the Spring of the Spring."
-												</li>
-												<li>
-													<b>✧ 2010</b>
-													Paint director of "Iljidangcheon Xtreme Xecutor"
-												</li>
-												<li>
-													<b>✧ 2009</b>
-													Paint director of "Like Hayate, 2nd Generation"
-												</li>
-												<li>
-													<b>✧ 2006</b>
-													"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
-												</li>
-												<li>
-													<b>✧ 2004</b>
-													"Hammer (Theater Feature)" Character Design, Part B Director
-													Director of Walt Disney's "Go-Gail" OVA.
-													Warner Bros. Director of Mask.
-													Nickelodeon's "Chalk Zone" Pilot director.
-													Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="swiper-slide acc-item">
-										<div class="img">
-											<img src="./images/about_team_05.png" alt="">
-										</div>
-										<div class="txt">
-											<p class="work">pd</p>
-											<p class="name">
-												Jang Yoo-sik 
-											</p>
-											<ul class="desc">
-												<li><b> ✧ 2021</b>
-													Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
-												</li>
-												<li>
-													<b>✧ 2019</b>
-													Paint director of "Wings of the Sorah" and "Nullpeta"
-												</li>
-												<li>
-													<b>✧ 2018</b>
-													Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
-												</li>
-												<li>
-													<b>✧ 2016</b>
-													Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
-													the Spring of the Spring of the Spring."
-												</li>
-												<li>
-													<b>✧ 2010</b>
-													Paint director of "Iljidangcheon Xtreme Xecutor"
-												</li>
-												<li>
-													<b>✧ 2009</b>
-													Paint director of "Like Hayate, 2nd Generation"
-												</li>
-												<li>
-													<b>✧ 2006</b>
-													"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
-												</li>
-												<li>
-													<b>✧ 2004</b>
-													"Hammer (Theater Feature)" Character Design, Part B Director
-													Director of Walt Disney's "Go-Gail" OVA.
-													Warner Bros. Director of Mask.
-													Nickelodeon's "Chalk Zone" Pilot director.
-													Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="swiper-slide acc-item">
-										<div class="img">
-											<img src="./images/about_team_06.png" alt="">
-										</div>
-										<div class="txt">
-											<p class="work">pd</p>
-											<p class="name">
-												Jang Yoo-sik 
-											</p>
-											<ul class="desc">
-												<li><b> ✧ 2021</b>
-													Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
-												</li>
-												<li>
-													<b>✧ 2019</b>
-													Paint director of "Wings of the Sorah" and "Nullpeta"
-												</li>
-												<li>
-													<b>✧ 2018</b>
-													Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
-												</li>
-												<li>
-													<b>✧ 2016</b>
-													Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
-													the Spring of the Spring of the Spring."
-												</li>
-												<li>
-													<b>✧ 2010</b>
-													Paint director of "Iljidangcheon Xtreme Xecutor"
-												</li>
-												<li>
-													<b>✧ 2009</b>
-													Paint director of "Like Hayate, 2nd Generation"
-												</li>
-												<li>
-													<b>✧ 2006</b>
-													"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
-												</li>
-												<li>
-													<b>✧ 2004</b>
-													"Hammer (Theater Feature)" Character Design, Part B Director
-													Director of Walt Disney's "Go-Gail" OVA.
-													Warner Bros. Director of Mask.
-													Nickelodeon's "Chalk Zone" Pilot director.
-													Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="swiper-slide acc-item">
-										<div class="img">
-											<img src="./images/about_team_07.png" alt="">
-										</div>
-										<div class="txt">
-											<p class="work">pd</p>
-											<p class="name">
-												Jang Yoo-sik 
-											</p>
-											<ul class="desc">
-												<li><b> ✧ 2021</b>
-													Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
-												</li>
-												<li>
-													<b>✧ 2019</b>
-													Paint director of "Wings of the Sorah" and "Nullpeta"
-												</li>
-												<li>
-													<b>✧ 2018</b>
-													Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
-												</li>
-												<li>
-													<b>✧ 2016</b>
-													Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
-													the Spring of the Spring of the Spring."
-												</li>
-												<li>
-													<b>✧ 2010</b>
-													Paint director of "Iljidangcheon Xtreme Xecutor"
-												</li>
-												<li>
-													<b>✧ 2009</b>
-													Paint director of "Like Hayate, 2nd Generation"
-												</li>
-												<li>
-													<b>✧ 2006</b>
-													"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
-												</li>
-												<li>
-													<b>✧ 2004</b>
-													"Hammer (Theater Feature)" Character Design, Part B Director
-													Director of Walt Disney's "Go-Gail" OVA.
-													Warner Bros. Director of Mask.
-													Nickelodeon's "Chalk Zone" Pilot director.
-													Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
-												</li>
-											</ul>
-										</div>
-									</li>
-								</ul>
-								
+						<div class="slide-wrap">
+							<div class="slide-type1 acc-type1">
+								<!-- swiper slide 구조 -->
+								<div class="swiper-container" id="my-swiper">
+									<ul class="swiper-wrapper">
+										<li class="swiper-slide acc-item">
+											<div class="img">
+												<img src="./images/about_team_01.png" alt="">
+											</div>
+											<div class="txt">
+												<p class="work">pd</p>
+												<p class="name">
+													Jang Yoo-sik 
+												</p>
+												<ul class="desc">
+													<li><b> ✧ 2021</b>
+														Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
+													</li>
+													<li>
+														<b>✧ 2019</b>
+														Paint director of "Wings of the Sorah" and "Nullpeta"
+													</li>
+													<li>
+														<b>✧ 2018</b>
+														Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
+													</li>
+													<li>
+														<b>✧ 2016</b>
+														Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
+														the Spring of the Spring of the Spring."
+													</li>
+													<li>
+														<b>✧ 2010</b>
+														Paint director of "Iljidangcheon Xtreme Xecutor"
+													</li>
+													<li>
+														<b>✧ 2009</b>
+														Paint director of "Like Hayate, 2nd Generation"
+													</li>
+													<li>
+														<b>✧ 2006</b>
+														"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
+													</li>
+													<li>
+														<b>✧ 2004</b>
+														"Hammer (Theater Feature)" Character Design, Part B Director
+														Director of Walt Disney's "Go-Gail" OVA.
+														Warner Bros. Director of Mask.
+														Nickelodeon's "Chalk Zone" Pilot director.
+														Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="swiper-slide acc-item">
+											<div class="img">
+												<img src="./images/about_team_02.png" alt="">
+											</div>
+											<div class="txt">
+												<p class="work">pd</p>
+												<p class="name">
+													Jang Yoo-sik 
+												</p>
+												<ul class="desc">
+													<li><b> ✧ 2021</b>
+														Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
+													</li>
+													<li>
+														<b>✧ 2019</b>
+														Paint director of "Wings of the Sorah" and "Nullpeta"
+													</li>
+													<li>
+														<b>✧ 2018</b>
+														Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
+													</li>
+													<li>
+														<b>✧ 2016</b>
+														Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
+														the Spring of the Spring of the Spring."
+													</li>
+													<li>
+														<b>✧ 2010</b>
+														Paint director of "Iljidangcheon Xtreme Xecutor"
+													</li>
+													<li>
+														<b>✧ 2009</b>
+														Paint director of "Like Hayate, 2nd Generation"
+													</li>
+													<li>
+														<b>✧ 2006</b>
+														"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
+													</li>
+													<li>
+														<b>✧ 2004</b>
+														"Hammer (Theater Feature)" Character Design, Part B Director
+														Director of Walt Disney's "Go-Gail" OVA.
+														Warner Bros. Director of Mask.
+														Nickelodeon's "Chalk Zone" Pilot director.
+														Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="swiper-slide acc-item">
+											<div class="img">
+												<img src="./images/about_team_03.png" alt="">
+											</div>
+											<div class="txt">
+												<p class="work">pd</p>
+												<p class="name">
+													Jang Yoo-sik 
+												</p>
+												<ul class="desc">
+													<li><b> ✧ 2021</b>
+														Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
+													</li>
+													<li>
+														<b>✧ 2019</b>
+														Paint director of "Wings of the Sorah" and "Nullpeta"
+													</li>
+													<li>
+														<b>✧ 2018</b>
+														Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
+													</li>
+													<li>
+														<b>✧ 2016</b>
+														Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
+														the Spring of the Spring of the Spring."
+													</li>
+													<li>
+														<b>✧ 2010</b>
+														Paint director of "Iljidangcheon Xtreme Xecutor"
+													</li>
+													<li>
+														<b>✧ 2009</b>
+														Paint director of "Like Hayate, 2nd Generation"
+													</li>
+													<li>
+														<b>✧ 2006</b>
+														"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
+													</li>
+													<li>
+														<b>✧ 2004</b>
+														"Hammer (Theater Feature)" Character Design, Part B Director
+														Director of Walt Disney's "Go-Gail" OVA.
+														Warner Bros. Director of Mask.
+														Nickelodeon's "Chalk Zone" Pilot director.
+														Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="swiper-slide acc-item">
+											<div class="img">
+												<img src="./images/about_team_04.png" alt="">
+											</div>
+											<div class="txt">
+												<p class="work">pd</p>
+												<p class="name">
+													Jang Yoo-sik 
+												</p>
+												<ul class="desc">
+													<li><b> ✧ 2021</b>
+														Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
+													</li>
+													<li>
+														<b>✧ 2019</b>
+														Paint director of "Wings of the Sorah" and "Nullpeta"
+													</li>
+													<li>
+														<b>✧ 2018</b>
+														Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
+													</li>
+													<li>
+														<b>✧ 2016</b>
+														Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
+														the Spring of the Spring of the Spring."
+													</li>
+													<li>
+														<b>✧ 2010</b>
+														Paint director of "Iljidangcheon Xtreme Xecutor"
+													</li>
+													<li>
+														<b>✧ 2009</b>
+														Paint director of "Like Hayate, 2nd Generation"
+													</li>
+													<li>
+														<b>✧ 2006</b>
+														"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
+													</li>
+													<li>
+														<b>✧ 2004</b>
+														"Hammer (Theater Feature)" Character Design, Part B Director
+														Director of Walt Disney's "Go-Gail" OVA.
+														Warner Bros. Director of Mask.
+														Nickelodeon's "Chalk Zone" Pilot director.
+														Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="swiper-slide acc-item">
+											<div class="img">
+												<img src="./images/about_team_05.png" alt="">
+											</div>
+											<div class="txt">
+												<p class="work">pd</p>
+												<p class="name">
+													Jang Yoo-sik 
+												</p>
+												<ul class="desc">
+													<li><b> ✧ 2021</b>
+														Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
+													</li>
+													<li>
+														<b>✧ 2019</b>
+														Paint director of "Wings of the Sorah" and "Nullpeta"
+													</li>
+													<li>
+														<b>✧ 2018</b>
+														Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
+													</li>
+													<li>
+														<b>✧ 2016</b>
+														Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
+														the Spring of the Spring of the Spring."
+													</li>
+													<li>
+														<b>✧ 2010</b>
+														Paint director of "Iljidangcheon Xtreme Xecutor"
+													</li>
+													<li>
+														<b>✧ 2009</b>
+														Paint director of "Like Hayate, 2nd Generation"
+													</li>
+													<li>
+														<b>✧ 2006</b>
+														"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
+													</li>
+													<li>
+														<b>✧ 2004</b>
+														"Hammer (Theater Feature)" Character Design, Part B Director
+														Director of Walt Disney's "Go-Gail" OVA.
+														Warner Bros. Director of Mask.
+														Nickelodeon's "Chalk Zone" Pilot director.
+														Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="swiper-slide acc-item">
+											<div class="img">
+												<img src="./images/about_team_06.png" alt="">
+											</div>
+											<div class="txt">
+												<p class="work">pd</p>
+												<p class="name">
+													Jang Yoo-sik 
+												</p>
+												<ul class="desc">
+													<li><b> ✧ 2021</b>
+														Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
+													</li>
+													<li>
+														<b>✧ 2019</b>
+														Paint director of "Wings of the Sorah" and "Nullpeta"
+													</li>
+													<li>
+														<b>✧ 2018</b>
+														Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
+													</li>
+													<li>
+														<b>✧ 2016</b>
+														Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
+														the Spring of the Spring of the Spring."
+													</li>
+													<li>
+														<b>✧ 2010</b>
+														Paint director of "Iljidangcheon Xtreme Xecutor"
+													</li>
+													<li>
+														<b>✧ 2009</b>
+														Paint director of "Like Hayate, 2nd Generation"
+													</li>
+													<li>
+														<b>✧ 2006</b>
+														"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
+													</li>
+													<li>
+														<b>✧ 2004</b>
+														"Hammer (Theater Feature)" Character Design, Part B Director
+														Director of Walt Disney's "Go-Gail" OVA.
+														Warner Bros. Director of Mask.
+														Nickelodeon's "Chalk Zone" Pilot director.
+														Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="swiper-slide acc-item">
+											<div class="img">
+												<img src="./images/about_team_07.png" alt="">
+											</div>
+											<div class="txt">
+												<p class="work">pd</p>
+												<p class="name">
+													Jang Yoo-sik 
+												</p>
+												<ul class="desc">
+													<li><b> ✧ 2021</b>
+														Paint director of "Spirit Fantasy", "Crush", "Level Up (Pilot) Alone"
+													</li>
+													<li>
+														<b>✧ 2019</b>
+														Paint director of "Wings of the Sorah" and "Nullpeta"
+													</li>
+													<li>
+														<b>✧ 2018</b>
+														Paint director of "Baki" "Merck Storia - helpless boy and girl in a bottle"
+													</li>
+													<li>
+														<b>✧ 2016</b>
+														Paint director of "Alderamin of the Heavenly Scenery of the Spirit of Winding
+														the Spring of the Spring of the Spring."
+													</li>
+													<li>
+														<b>✧ 2010</b>
+														Paint director of "Iljidangcheon Xtreme Xecutor"
+													</li>
+													<li>
+														<b>✧ 2009</b>
+														Paint director of "Like Hayate, 2nd Generation"
+													</li>
+													<li>
+														<b>✧ 2006</b>
+														"One Piece" - Mechanical Placenta-Mechanical Bottle (Theatre Edition) Last Action Layout
+													</li>
+													<li>
+														<b>✧ 2004</b>
+														"Hammer (Theater Feature)" Character Design, Part B Director
+														Director of Walt Disney's "Go-Gail" OVA.
+														Warner Bros. Director of Mask.
+														Nickelodeon's "Chalk Zone" Pilot director.
+														Cartoon Network 'Ed Edd and Eddy' Episode 1 Pilot Director
+													</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+									
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			
-			<section class="section game" id="game">game</section>
-			<section class="section nft" id="nft">nft</section>
-			<section class="section token" id="token">token</section>
-			<section class="section ecosystem" id="ecosystem">ecosystem</section>
-			<section class="section roadmap" id="roadmap">roadmap</section>
+			<section class="section game" id="game">
+				<div class="container">
+					<div class="content game__app align both fade-in">
+						<div class="img">
+							<img src="./images/game_app.png" alt="">
+						</div>
+						<div class="txt txt-left">
+							<div class="title-type1 title-wrap">
+								<h2>
+									CREATURE HUNTERS <br>
+									P2E GAME
+								</h2>
+								<p>
+									Creature Hunters creates blockchain & AR powered games<br>
+									that give life to unique characters and creatures.
+								</p>
+							</div>
+							<button class="btn btn-down">DOWNLOAD</button>
+							<div class="khira-desc">
+								<div class="khira-desc__title align end">
+									<strong>KHIRA</strong>
+									<img src="./images/game_logo.png" alt="">
+								</div>
+								<p class="khira-desc__txt">
+									KHIRA is now launched and ready to meet<br>
+									the players who enjoy the innovative games.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="content game__p2e align mt10 fade-in">
+						<div class="img">
+							<img src="./images/game_p2e.png" alt="">
+						</div>
+						<div class="txt">
+							<div class="title-type2 title-wrap">
+								<h3>P2E</h3>
+								<p>
+									P2E is a concept that adds the concept of token economy in F2P (Free To Play)<br>
+									which most traditional mobile games have adhered to so far,<br>
+									and mining items that actually have economic value while playing games.
+								</p>
+							</div>
+							<div class="title-type2 title-wrap">
+								<h3 class="mt5">Acquired reward</h3>
+								<p> 
+									In our games, users can earn points as rewards while hunting creations or <br>
+									completing quests through mechanics. <br>
+									The acquired reward can be swapped into a KHIRA token in the game.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="content game__use mt20 fade-in">
+						<div class="title-wrap title-type3 mt10">
+							<h2>Use the KHIRA token</h2>
+						</div>
+						<ul class="list align both">
+							<li>
+								<img src="./images/token_ico_01.png" alt="" class="ico">
+								<p>
+									Purchase or sell mechanical NFTs or 
+									item NFTs in the NFT store 
+									implemented in the game.
+								</p>
+							</li>
+							<li>
+								<img src="./images/token_ico_02.png" alt="" class="ico">
+								<p>
+									Transfer to the exchange and<br>
+									trade with other crypto assets.
+								</p>
+							</li>
+							<li>
+								<img src="./images/token_ico_03.png" alt="" class="ico">
+								<p>
+									Transfer to the<br>
+									exchange and cash it.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="section nft fade-in" id="nft">
+				<div class="container">
+					<div class="title-wrap title-type3">
+						<h2>CREATURE HUNTERS NFT</h2>
+					</div>
+					<div class="content mechanics fade-in">
+						<div class="con__title title-type2 violet">
+							<h3>Mechanics</h3>
+							<p>
+								In games produced by Creature Hunters, you can purchase NFT mechanics<br>
+								with various abilities or obtain NFTs through various events in the game.<br>
+								
+								The acquired NFT may produce various performances <br>
+								in the game according to the assigned ability value.<br>
+								
+								NFT's unique capabilities reflected in performance <br>
+								include mobility, strength, and defense.<br>
+							</p>
+						</div>
+						<div class="slide-type2">
+							<div class="swiper-container">
+								<ul class="robot-list align both swiper-wrapper">
+									<li class="swiper-slide"><img src="./images/nft_rogot_01.png" alt=""></li>
+									<li class="swiper-slide"><img src="./images/nft_rogot_02.png" alt=""></li>
+									<li class="swiper-slide"><img src="./images/nft_rogot_03.png" alt=""></li>
+									<li class="swiper-slide"><img src="./images/nft_rogot_04.png" alt=""></li>
+									<li class="swiper-slide"><img src="./images/nft_rogot_05.png" alt=""></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="content creature fade-in">
+						<div class="con__title title-type2 txt-right">
+							<h3>Creature</h3>
+							<p>
+								With a mechanic, you can execute an AR-based battle.<br>
+								If you win the battle, you can get the creatures you fought!<br>
+								When the creatures are strengthened and synthesized<br>
+								to foster them above a certain level, they can be minted as an NFT.
+							</p>
+						</div>
+						<div class="slide-type2">
+							<div class="swiper-container">
+								<ul class="robot-list align both swiper-wrapper">
+									<li class="swiper-slide"><img src="./images/nft_rogot_01.png" alt=""></li>
+									<li class="swiper-slide"><img src="./images/nft_rogot_02.png" alt=""></li>
+									<li class="swiper-slide"><img src="./images/nft_rogot_03.png" alt=""></li>
+									<li class="swiper-slide"><img src="./images/nft_rogot_04.png" alt=""></li>
+									<li class="swiper-slide"><img src="./images/nft_rogot_05.png" alt=""></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="content porcess ntf__porcess fade-in mt10">
+						<img src="./images/nft_process.png" alt="">
+					</div>
+					<div class="content market nft__market mt20 fade-in">
+						<div class="title-wrap title-type3">
+							<h2>NFT Market</h2>
+						</div>
+						<ul class="list list-type1">
+							<li>
+								<strong class="num">01</strong>
+								<p class="desc">
+									NFT's value, content, and ownership are stored on a blockchain that activates smart contact and cannot be
+									falsified,<br>
+									and proof of ownership can also be transparently and safely disclosed on the public blockchain.
+								</p>
+							</li>
+							<li>
+								<strong class="num">02</strong>
+								<p class="desc">
+									As the NFT of tokens creates the original content and ownership concepts and lays the foundation for
+									value<br>
+									recognition, the ecosystem of digital asset transactions, games, and metaverse games can be expanded. In
+									addition,<br>
+									various types of NFT attempts can secure many types of consumers.
+								</p>
+							</li>
+							<li>
+								<strong class="num">03</strong>
+								<p class="desc">
+									NFT Market sells NFT-made games and entertainment channels of Creature Hunters' own games and
+									entertainment<br>
+									channels, as well as other character trading cards and goods.<br>
+									In the future, it will promote an NFT ecosystem that applies O2O through goods.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</section>
+			<section class="section token fade-in" id="token">
+				<div class="container">
+					<div class="title-wrap title-type3">
+						<h2>KHIRA Token</h2>
+					</div>
+					<div class="content token__khira mt10">
+						<div class="row align center ">
+							<div class="img">
+								<img src="./images/token_logo.png" alt="">
+							</div>
+							<div class="txt title-type2">
+								<h3>KHIRA</h3>
+								<p>
+									Creature Hunter has deployed KHIRA token on BSC(Binance Smart Chain)<br><br>
+		
+									The token can be earned while playing our games. It is also a reward <br>
+									provided for our NFT buyers and users, creating an active ecosystem <br>
+									within the world of Creature Hunter.
+								</p>
+								<div class="btn-wrap">
+									<a href="" class="btn btn-link">White Paper</a>
+									<a href="" class="btn btn-link">GitBook</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="percent">
+								<img src="./images/token_img.png" alt="">
+							</div>
+							<ul class="list list-type1">
+								<li>
+									<strong>Total number of token</strong>
+									<p>500,000,000</p>
+								</li>
+								<li>
+									<strong>Symbol</strong>
+									<p>KA</p>
+								</tr>
+								<li>
+									<strong>Network</strong>
+									<p>BSC</p>
+								</li>
+								<li>
+									<strong>Token Contract Address</strong>
+									<p>0x01c6Cc16A6585E88Ea155e043F108840dAA49d99</p>
+								</li>
+							</ul>
+						</div>
+					
+					</div>
+		
+				</div>
+			</section>
+			<section class="section ecosystem fade-in" id="ecosystem">
+				<div class="container">
+					<div class="title-wrap title-type3">
+						<h2>NFT Ecosystem</h2>
+						<p>
+							The ecosystem of Creature Hunters consists of three main elements.<br>
+							Creature Hunter has deployed KHIRA token on BSC(Binance Smart Chain).<br>
+							The token can be earned while playing our games. It is also a reward provided for<br>
+							our NFT buyers and users, creating an active ecosystem within the world of Creature Hunter.
+						</p>
+					</div>
+					<div class="content">
+						<div class="row element">
+							<div class="txt title-type2">
+								<h3>Element 01.</h3>
+								<p>
+									Users hunt creatures through mechanics within the Creature Hunters game.<br>
+									This is implemented using location-based maps and augmented reality (AR) technology.<br>
+									KHIRA token will be used by our players and NFT users, as everyone can buy NFT with KHIRA or <br>
+									use KHIRA to purchase in-game items. Users can be rewarded with KHIRA when certain actions are taken in-game. <br>
+									Creature Hunters will also open on & off line events to further reward our users with KHIRA!
+								</p>
+							</div>
+							<ul class="list">
+								<li>KHIRA users will be able to play P2E game, mining KHIRA's native tokens.</li>
+								<li>Users will earn points while playing various P2E platform.</li>
+								<li>Points earned will be able to swap between KHIRA token.</li>
+								<li>Tokens will be safely stored in user's in-game wallet.</li>
+								<li>With the tokens earned, users can choose to either trade, or purchase NFT.</li>
+								<li>NFT purchased will have certain properties which will boost the game experience and contribute to earning more tokens.</li>
+							</ul>
+						</div>
+						<div class="row element align both">
+							<div class="img">
+								<img src="./images/ecosystem_img.png" alt="">
+							</div>
+							<div class="txt txt-right title-type2">
+								<h3>Element 02.</h3>
+								<strong>
+									NFT market<br>
+									implemented in the game.
+								</strong>
+								<p class="mt2">
+									Users purchase NFTs to use better mechanics to hunt creatures. <br>
+									The purchased NFTs may be upgraded. Of course, it is possible to sell<br>
+									mechanicals (NFTs) purchased in the NFT market.
+								</p>
+							</div>
+						</div>
+						<div class="row element">
+							<div class="txt title-type2">
+								<h3>Element 03.</h3>
+								<strong>
+									IP business using the<br>
+									Creature Hunters game.
+								</strong>
+							</div>
+							<ul class="list">
+								<li>KHIRA users will be able to play P2E game, mining KHIRA's native tokens.</li>
+								<li>Users will earn points while playing various P2E platform.</li>
+								<li>Points earned will be able to swap between KHIRA token.</li>
+								<li>Tokens will be safely stored in user's in-game wallet.</li>
+								<li>With the tokens earned, users can choose to either trade, or purchase NFT.</li>
+								<li>NFT purchased will have certain properties which will boost the game experience and contribute to earning more tokens.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section roadmap fade-in" id="roadmap">
+				<div class="container">
+					<div class="title-wrap title-type3">
+						<h2>ROAD MAP</h2>
+					</div>
+					<div class="content align mt10">
+						<div class="roadmap-year">2023</div>
+						<ul class="list roadmap-list">
+							<li>
+								<p class="roadmap-list__month">1Q</p>
+								<ul class="roadmap-list__desc">
+									<li>KHIRA Project Reveal</li>
+									<li>Website Open</li>
+									<li>Whitepaper 1.0 Release</li>
+									<li>KHIRA Token Seed Round</li>
+								</ul>
+							</li>
+							<li>
+								<p class="roadmap-list__month">2Q</p>
+								<ul class="roadmap-list__desc">
+									<li>Community Open</li>
+									<li>Mining Game App Launch</li>
+									<li>KHIRA NFTs Minting</li>
+									<li>KHIRA Token Listing</li>
+									<li>Launch of Creature Hunters Figure and Toys</li>
+								</ul>
+							</li>
+							<li>
+								<p class="roadmap-list__month">3Q</p>
+								<ul class="roadmap-list__desc">
+									<li>AR Game Launch  (Creature HUNTERS)</li>
+									<li>KHIRA NFT Marketplace Launch</li>
+									<li>1st Meet-up </li>
+								</ul>
+							</li>
+							<li>
+								<p class="roadmap-list__month">4Q</p>
+								<ul class="roadmap-list__desc">
+									<li>KHIRA Token Staking Program Launch</li>
+									<li>Launch of Creature Hunters Animation Series</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
 		</main>
 		<footer class="footer"></footer>

@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.btn {display:inline-block;}
+.btn-down {padding: 1rem 2rem; border-radius: 10rem; border: 1px solid var(--violet2); background: var(--violet3); color: var(--violet2); font-weight: 700;}
+.btn-link {padding: 1.5rem 3rem; border-radius: 10rem; border: 1px solid var(--orange); background: var(--orange2); color: var(--orange); font-weight: 700; font-size:2rem;}

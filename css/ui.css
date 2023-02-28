@@ -4,7 +4,7 @@ body {overflow-y: scroll;background: #000; }
 img {width: 100%;display: block; } 
 .wrap {max-width: 2560px;width: 100%;overflow: hidden; } 
 .blind {position: absolute;top: -9999px;left: -9999px}
-.section {position:relative; padding: 8rem 0;background: #000; color: #fff; font-size:50px; text-align: center;} 
+.section {padding: 20rem 0 10rem;background: #000; color: #fff; font-size:50px; text-align: center;} 
 .section-content {position:relative; padding: 8rem 0;background: #000; height:100vh; color: #fff; font-size:50px; text-align: center;} 
 .title {margin: auto;text-align: center;color: #fff;font-size: 6rem; } 
 .container {padding: 0 40px;max-width: 1600px;width: 100%;margin: auto; } 
@@ -66,7 +66,7 @@ Section | keyvisual Section
 Section | About Section
 ================================
 */
-.intro {height: auto;}
+.intro {position:relative; height: auto;}
 .intro .content {display: flex;align-items: center;gap: 10px; } 
 .intro .content>div {width: 50%; } 
 .intro .content .img {width: 1000px; } 
@@ -100,8 +100,8 @@ Section | About Section
 
 /* Fade In */
 .fade-in {transform: translateY(-100px);opacity: 0;transition: all 1s; } 
-.fade-in.show {transform: translateY(0);opacity: 1; } 
-.fade-in.show.delay03 {transition-delay: 0.3s; } 
+.fade-in.show {transform: translateY(0);opacity: 1;} 
+.delay03 {transition-delay: 0.3s; } 
 
 
 
@@ -110,12 +110,76 @@ Section | About Section
 Section | Game Section
 ================================
 */
-.section.game {height:100vh;}
-.section.nft {height:100vh;}
+.game {height:100vh;}
+.game .content {}
+.game__app .txt {order: 1;}
+.game__app .img {order: 2;}
+.game__app .khira-desc {margin-top:14rem;}
+.game__app .khira-desc__title strong {font-size:4rem;}
+.game__app .khira-desc__title img {width: 96px;}
+.game__app .khira-desc__txt {margin-top:10px; font-size:1.5rem;}
+.game__p2e {justify-content: space-between; align-items: center;}
+.game__p2e .img {width:570px;}
+.game__use .list {margin-top: 5rem; text-align:center;}
+.game__use .list li {padding: 5rem; width: 32%; background: #161616; font-size:2.2rem; border-radius: 20px;}
+.game__use .list li .ico {width:74px; margin:auto;}
+.game__use .list li p {border-top: 1px solid #fff; margin-top: 5rem; padding-top:5rem;}
+.game__use .list li:hover {background: linear-gradient(45deg,  #ED5700, #D60080); transition:all 0.3s}
+
+/* .section.nft {height:100vh;}
 .section.token {height:100vh;}
 .section.ecosystem {height:100vh;}
-.section.roadmap {height:100vh;}
+.section.roadmap {height:100vh;} */
+/* 
+================================
+Section | nft Section
+================================
+*/
+.nft {margin-top: 1300px;}
+.nft__market .list li .num {width:100px; color: var(--orange); font-size:7rem;}
+.nft__market .list li .desc {margin-top:18px; margin-left:3rem; text-align: left; font-size:2rem;}
+/* 
+================================
+Section | token Section
+================================
+*/
+.token__khira .txt {margin-left:10rem;}
+.token__khira .btn-wrap {margin-top:5rem;}
+.token__khira .btn-wrap a:nth-child(2) {margin-left:5.2rem;}
+.token__khira .list {}
+.token__khira .list li {display:flex; font-size:2rem;}
+.token__khira .list li strong {color: var(--violet2);}
+.token__khira .list li p {margin-left:5rem;}
 
+
+/* 
+================================
+Section | ecosystem Section
+================================
+*/
+.ecosystem .element {margin: 10rem 0 0;}
+.ecosystem .element:nth-child(1) {margin: 0 0 0;}
+.ecosystem .element .txt {margin-top:12rem;}
+.ecosystem .element .txt strong {display:block; line-height:1.2;}
+.ecosystem .element .txt p {font-size:2.2rem;}
+.ecosystem .element .list {position:relative; margin:2rem 0 0; font-size:2.2rem; text-align: left;}
+.ecosystem .element .list::before {content: ""; position:absolute; width:2rem; height: 100%; background: linear-gradient(45deg,#ED5700,#D60080)}
+.ecosystem .element .list li {padding-left:6rem;}
+
+/* 
+================================
+Section | roadmap Section
+================================
+*/
+.roadmap {}
+.roadmap .content {}
+.roadmap-year {position:relative; top: -11px; margin-right:10rem; font-size:15rem; color: var(--violet2); font-weight: 800;}
+.roadmap-list > li {display:flex; margin-top:10rem;}
+.roadmap-list > li:nth-child(1) {margin-top:0;}
+.roadmap-list__month {margin-right:10rem; font-size:12rem; font-weight: 800;}
+.roadmap-list__desc {position:relative; top:35px; font-size:2.5rem; text-align:left;}
+.roadmap-list__desc li {margin-top: 2.1rem;}
+.roadmap-list__desc li:nth-child(1) {margin-top:0rem;}
 
 
 /* 
@@ -172,6 +236,7 @@ Section | Game Section
 	About Section
 	================================
 	*/
+	/* Intro */
 	.intro {padding: 1rem 0 8rem; } 
 	.intro .content {flex-direction: column; } 
 	.intro .content > div {width: 100%; } 
@@ -183,10 +248,28 @@ Section | Game Section
 	.intro .txt-type1 {font-size: 5rem; } 
 	.intro .txt-type2 {font-size: 3.5rem; } 
 
-
+	/* Team */
 	.team {height:auto;}
 	.team .container {flex-wrap: wrap;}
 	.team .title-wrap {margin-right:0; margin-top:0; margin-bottom: 50px;}
 	.team .title-wrap h2 {font-size: 5rem;}
 	.team .slide-type1 {position: static;}
 }
+
+.section-content {height:auto;}
+.team .container {align-items: center; display: block;}
+.team .title-wrap {margin-top:0;}
+.slide-type1 {position: static; margin-left:300px;}
+.element .list li {position:relative; display:flex; align-items: center;}
+.element .list li::before {content: ""; margin-right:10px; width: 5px; height:5px; background: var(--white); display:inline-block;}
+.roadmap-list__desc li {position:relative; display: flex; align-items: center;}
+.roadmap-list__desc li::before {content: ""; margin-right:10px; width: 5px; height:5px; background: var(--white); display:inline-block;}
+
+.nft .slide-type2 {width: 2000px; overflow:hidden; margin-top:5rem;}
+.nft .slide-type2 li {    
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 15px;
+}
+.nft .mchanics .slide-type2 {}
+.nft .creature {margin-top:10rem;}
+.nft .creature .slide-type2 {margin-left:200px;}

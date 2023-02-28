@@ -6,8 +6,13 @@
 	--black:#000;
 	--white:#fff;
 	--violet:#9601ff;
+	--violet2:#A259FF;
+	--violet3:rgba(255,54,166,0.2);
 	--pink:#d92ec7;
 	--gray:#7B7B7B;
+	--orange:#FF5E00;
+	--orange2:rgba(255,94,0,0.2);
+	
 	
 	/* Font Size*/
 	--font-x-small:16px;

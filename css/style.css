@@ -5,8 +5,10 @@
 @import url('base/reset.css'); /* 전체초기화 */
 @import url('base/typography.css'); /* 타이포 */
 
-@import url('components/slide.css'); /* 슬라이드 */
 @import url('components/acc.css'); /* 아코디언 */
+@import url('components/button.css'); /* 버튼 */
+@import url('components/list.css'); /* 버튼 */
+@import url('components/slide.css'); /* 슬라이드 */
 
 @import url('layout/align.css'); /* 정렬 */
 @import url('layout/space.css'); /* 여백 */

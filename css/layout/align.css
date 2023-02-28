@@ -4,3 +4,8 @@
 .txt-left {text-align: left;}
 .txt-right {text-align: right;}
 .txt-center {text-align: center;}
+
+.align {display:flex; gap: 10px;}
+.align.both {justify-content: space-between;}
+.align.center {justify-content: center;}
+.align.end {align-items:flex-end;}

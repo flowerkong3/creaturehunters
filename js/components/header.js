@@ -36,9 +36,11 @@
  		const position = document.documentElement.scrollTop || document.body.scrollTop;// 스크롤 높이값 구하기
 
  		for (let i in sectionObject) {
- 			if (sectionObject[i] <= position) {
+ 			if (sectionObject[i] <= position ) {
  				document.querySelector(".nav-color-change .color").setAttribute("class", " ");
  				document.querySelector(".nav-color-change a[href*=" + i + "]").setAttribute("class", "color");
- 			}
+ 			}else {
+				document.querySelector(".nav-color-change a[href*=" + i + "]").setAttribute("class", "");
+			}
  		}
  	})
